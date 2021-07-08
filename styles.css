@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.options {
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    margin: auto;
+    width: 15%;
+    margin-top: 500px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+}
