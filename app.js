@@ -3,6 +3,7 @@ const paper = document.getElementById("paper");
 const sissors = document.getElementById("sissors");
 const playerResults = document.getElementById("playerResults");
 const computerResults = document.getElementById("computerResults");
+const options = document.getElementById("optionssection");
 var computerScore = 0;
 var playerScore = 0;
 
