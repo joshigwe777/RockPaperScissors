@@ -15,17 +15,39 @@ img {
 
 
 .options {
+    display: block;
     margin: auto;
-    width: 50%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    width: 300px;
+}
+
+.icons {
+    display: flex;
+}
+
+#rock,
+#paper,
+#scissors {
+    margin: 5px;
+    padding: 1px;
+}
+
+#rock:hover,
+#paper:hover,
+#scissors:hover {
+    border: solid black 3px;
+    border-radius: 5px;
 }
 
 .scoreboard {
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.playerscore {
+    margin-right: 50px;
 }
 
 button {
